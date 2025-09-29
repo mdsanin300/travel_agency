@@ -20,9 +20,9 @@ import { links } from "@/lib/links"
 
 export default function Navbar() {
   return (
-    <nav className="w-full flex justify-around items-center fixed top-0 left-0 backdrop-blur-md bg-blend-color border-b shadow-md py-1.5">
+    <nav className="w-full flex justify-around items-center top-0 left-0 backdrop-blur-md bg-blend-color border-b shadow-md py-1.5 fixed z-10">
       <DropdownMenu>
-        <DropdownMenuTrigger className="border p-1.5 rounded-md bg-background">
+        <DropdownMenuTrigger className="p-1.5 backdrop-blur-lg bg-blend-color hover:bg-white/40 transition-colors duration-300 rounded-sm">
           <TextAlignJustify />
         </DropdownMenuTrigger>
         <DropdownMenuContent>
